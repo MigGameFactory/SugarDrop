@@ -7,6 +7,7 @@ public class GameManagerScript : MonoBehaviour
     private float animSpeed = 2.0f;
     public GameObject applePrefab;
     public GameObject bananasPrefab;
+    public GameObject melonPrefab;
 
     void Awake()
     {
@@ -32,14 +33,18 @@ public class GameManagerScript : MonoBehaviour
 
     void SpawnFruitObject()
     {
-        int randNum = Random.Range(0, 2);
+        int randNum = Random.Range(0, 3);
         if (randNum == 0)
         {
             Instantiate(applePrefab);
         }
-        else
+        else if(randNum == 1)
         {
             Instantiate(bananasPrefab);
+        }
+        else
+        {
+            Instantiate(melonPrefab);
         }
     }
 }

@@ -2279,6 +2279,7 @@ MonoBehaviour:
   animTargetText: {fileID: 2100317469}
   applePrefab: {fileID: 3894129209216733826, guid: 5c74de4b5fcdce4469a128e681f5e531, type: 3}
   bananasPrefab: {fileID: 774991370516707471, guid: 25a86364004f8914db09e9fe6348feec, type: 3}
+  melonPrefab: {fileID: 3551137547564585606, guid: 419014fbb628bca4d9b802c23c6e447a, type: 3}
 --- !u!1 &2084838257
 GameObject:
   m_ObjectHideFlags: 0
